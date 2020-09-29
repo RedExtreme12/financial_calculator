@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+    <h2>{{ the_tittle }}</h2>
+
+    <p>You submitted the following data:</p>
+    <table>
+        <tr>
+            <td>First number:</td><td>{{ first_number }}</td>
+        </tr>
+        <tr>
+            <td>Second number:</td><td>{{ second_number }}</td>
+        </tr>
+    </table>
+
+    <p>Result = "{{ result }}"</p>
+
+    <h3>{{ the_results }}</h3>
+
+{% endblock %}

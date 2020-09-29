@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+    <h2>{{ the_tittle }}</h2>
+
+    <p>Error! Numbers should not be written in an exponential form!
+        And they must be between 1 000 000 000 000 000.00 and -1 000 000 000 000 000.00</p>
+    <table>
+        <tr>
+            <td>First number:</td><td>{{ first_number }}</td>
+        </tr>
+        <tr>
+            <td>Second number:</td><td>{{ second_number }}</td>
+        </tr>
+    </table>
+
+{% endblock %}

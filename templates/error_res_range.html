@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+    <h2>{{ the_tittle }}</h2>
+
+    <p>Error! Result must be between 1 000 000 000 000 000.00 and -1 000 000 000 000 000.00</p>
+    <table>
+        <tr>
+            <td>Result: </td><td>{{ result }}</td>
+        </tr>
+    </table>
+
+{% endblock %}
