@@ -6,17 +6,19 @@
     <form method='POST' action='/calculate'>
         <table>
             <p><b>Рогозенко Дмитрий, 12 группа, 3 курс, 2020 год.</b></p>
-            <p>Use this form to submit a search request:</p>
+            <p>Use this form to enter numbers:</p>
             <tr>
-                <td>Phrase:</td><td><input name='first number' type='TEXT' width=60 value="0"></td>
+                <td>First number:</td><td><input name='first number' type='TEXT' width=60 value="0"></td>
             </tr>
             <tr>
-                <td>Letters:</td><td><input name='second number' type='TEXT' value='0'></td>
+                <td>Second number:</td><td><input name='second number' type='TEXT' value='0'></td>
             </tr>
         </table>
         <p>When you're ready, click this button:</p>
-        <p><input value='+' type='SUBMIT' name='sum'></p>
-        <p><input value='-' type='SUBMIT' name='diff'></p>
+        <input value='+' type='SUBMIT' name='sum'>
+        <input value='-' type='SUBMIT' name='diff'>
+        <input value='*' type='SUBMIT' name='composition'>
+        <input value='/' type='SUBMIT' name='division'>
     </form>
 
 {% endblock %}
